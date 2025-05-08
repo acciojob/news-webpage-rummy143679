@@ -4,7 +4,7 @@ body{
 	background-color:#f5f5f5;
 }
 
-.latest-news-section, .main-section, .pictorial-news-section{
+.latest-news-section{
 	margin:5px;
 	background-color:white;
 	display:flex;
@@ -13,12 +13,28 @@ body{
 	align-items:center;
 }
 
+.main-section{
+	padding:5px;
+	text-align:center;
+}
+
+.pictorial-news-section{
+	padding:5px;
+	width:100px;
+	text-align:center;
+	border-radius:10px;
+}
+
+img{
+	width:100%;
+}
+
 .body-section{
 	display:flex;
 }
-.header{
+header{
+	padding:5px;
 	background-color: #011e29;
-	display:flex;
-	justify-content:center;
+	text-align:center;
 	color:white;
 }
